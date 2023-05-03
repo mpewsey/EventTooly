@@ -1,4 +1,4 @@
-# UnityEventManager
+# UnityEvent Manager
 
 A UnityEvent manager.
 
