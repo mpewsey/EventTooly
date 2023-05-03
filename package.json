@@ -1,0 +1,15 @@
+{
+  "name": "com.mpewsey.unityeventmanager",
+  "author": "Matt Pewsey",
+  "displayName": "Unity Event Manager",
+  "version": "0.0.1",
+  "unity": "2021.2",
+  "keywords": [
+    "unity",
+    "events"
+  ],
+  "description": "A UnityEvent manager.",
+  "dependencies": {},
+  "samples": [],
+  "type": "library"
+}
