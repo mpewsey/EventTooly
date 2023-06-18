@@ -48,7 +48,7 @@ namespace MPewsey.UnityEventManager
         /// <inheritdoc/>
         public bool Equals(EventKey other)
         {
-            return Key == other.Key;
+            return HashCode == other.HashCode && Key == other.Key;
         }
 
         /// <inheritdoc/>
