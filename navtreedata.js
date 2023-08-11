@@ -24,10 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Unity Event Manager", "index.html", [
-    [ "UnityEvent Manager", "index.html", [
-      [ "Installation", "index.html#autotoc_md1", null ]
-    ] ],
+  [ "Eventooly", "index.html", [
+    [ "Installation", "index.html#autotoc_md1", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unityevent_20manager_0',['UnityEvent Manager',['../index.html',1,'']]]
+  ['eventooly_0',['Eventooly',['../index.html',1,'']]]
 ];
