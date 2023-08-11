@@ -1,7 +1,7 @@
 {
-  "name": "com.mpewsey.unityeventmanager",
+  "name": "com.mpewsey.eventooly",
   "author": "Matt Pewsey",
-  "displayName": "Unity Event Manager",
+  "displayName": "Eventooly",
   "version": "0.0.1",
   "unity": "2021.2",
   "keywords": [

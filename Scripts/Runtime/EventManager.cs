@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine.Events;
 
-namespace MPewsey.UnityEventManager
+namespace MPewsey.Eventooly
 {
     /// <summary>
     /// A class for managing multiple events.

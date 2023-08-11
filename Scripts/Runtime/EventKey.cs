@@ -1,6 +1,6 @@
 using System;
 
-namespace MPewsey.UnityEventManager
+namespace MPewsey.Eventooly
 {
     /// <summary>
     /// A struct for containing an event key string and its hash code for faster lookup.
