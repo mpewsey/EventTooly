@@ -6,24 +6,19 @@ namespace MPewsey.EventTooly
     /// <summary>
     /// A class for managing multiple events.
     /// </summary>
-    public class EventManager
+    public static class EventManager
     {
-        /// <summary>
-        /// The current event manager.
-        /// </summary>
-        private static EventManager Current { get; } = new EventManager();
-
         /// <summary>
         /// A dictionary of events by key.
         /// </summary>
-        private Dictionary<EventKey, object> Events { get; } = new Dictionary<EventKey, object>();
+        private static Dictionary<EventKey, object> Events { get; } = new Dictionary<EventKey, object>();
 
         /// <summary>
         /// Clears all events from the manager.
         /// </summary>
         public static void Clear()
         {
-            Current.Events.Clear();
+            Events.Clear();
         }
 
         /// <summary>
@@ -69,10 +64,10 @@ namespace MPewsey.EventTooly
         /// <exception cref="System.InvalidCastException">Raised if an existing event cannot be cast to the return event type.</exception>
         private static UnityEvent AcquireEvent(EventKey key)
         {
-            if (!Current.Events.TryGetValue(key, out object obj))
+            if (!Events.TryGetValue(key, out object obj))
             {
                 var newEvent = new UnityEvent();
-                Current.Events.Add(key, newEvent);
+                Events.Add(key, newEvent);
                 return newEvent;
             }
 
@@ -89,10 +84,10 @@ namespace MPewsey.EventTooly
         /// <exception cref="System.InvalidCastException">Raised if an existing event cannot be cast to the return event type.</exception>
         private static UnityEvent<T1> AcquireEvent<T1>(EventKey key)
         {
-            if (!Current.Events.TryGetValue(key, out object obj))
+            if (!Events.TryGetValue(key, out object obj))
             {
                 var newEvent = new UnityEvent<T1>();
-                Current.Events.Add(key, newEvent);
+                Events.Add(key, newEvent);
                 return newEvent;
             }
 
@@ -109,10 +104,10 @@ namespace MPewsey.EventTooly
         /// <exception cref="System.InvalidCastException">Raised if an existing event cannot be cast to the return event type.</exception>
         private static UnityEvent<T1, T2> AcquireEvent<T1, T2>(EventKey key)
         {
-            if (!Current.Events.TryGetValue(key, out object obj))
+            if (!Events.TryGetValue(key, out object obj))
             {
                 var newEvent = new UnityEvent<T1, T2>();
-                Current.Events.Add(key, newEvent);
+                Events.Add(key, newEvent);
                 return newEvent;
             }
 
@@ -129,10 +124,10 @@ namespace MPewsey.EventTooly
         /// <exception cref="System.InvalidCastException">Raised if an existing event cannot be cast to the return event type.</exception>
         private static UnityEvent<T1, T2, T3> AcquireEvent<T1, T2, T3>(EventKey key)
         {
-            if (!Current.Events.TryGetValue(key, out object obj))
+            if (!Events.TryGetValue(key, out object obj))
             {
                 var newEvent = new UnityEvent<T1, T2, T3>();
-                Current.Events.Add(key, newEvent);
+                Events.Add(key, newEvent);
                 return newEvent;
             }
 
