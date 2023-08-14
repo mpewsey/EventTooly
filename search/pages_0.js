@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eventooly_0',['Eventooly',['../index.html',1,'']]]
+  ['eventtooly_0',['EventTooly',['../index.html',1,'']]]
 ];

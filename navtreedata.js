@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Eventooly", "index.html", [
+  [ "EventTooly", "index.html", [
     [ "Installation", "index.html#autotoc_md1", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
