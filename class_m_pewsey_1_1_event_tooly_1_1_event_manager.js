@@ -21,6 +21,5 @@ var class_m_pewsey_1_1_event_tooly_1_1_event_manager =
     [ "RemoveListener< T1 >", "class_m_pewsey_1_1_event_tooly_1_1_event_manager.html#a3fb27548545aa7aca970bf934a06954b", null ],
     [ "RemoveListener< T1, T2 >", "class_m_pewsey_1_1_event_tooly_1_1_event_manager.html#afd02fb912ce283f85760485b0e25a542", null ],
     [ "RemoveListener< T1, T2, T3 >", "class_m_pewsey_1_1_event_tooly_1_1_event_manager.html#ae550d375a66117a2dec446ca6229908b", null ],
-    [ "Current", "class_m_pewsey_1_1_event_tooly_1_1_event_manager.html#a56ef412177eefff24be6da71ccc9edb6", null ],
     [ "Events", "class_m_pewsey_1_1_event_tooly_1_1_event_manager.html#af9367ddb88c8a4ad97b57103c9adf1e5", null ]
 ];
