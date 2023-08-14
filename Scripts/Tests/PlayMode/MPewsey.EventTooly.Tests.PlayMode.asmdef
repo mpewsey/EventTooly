@@ -1,10 +1,10 @@
 {
-    "name": "MPewsey.Eventooly.Tests.PlayMode",
+    "name": "MPewsey.EventTooly.Tests.PlayMode",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "MPewsey.Eventooly"
+        "MPewsey.EventTooly"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

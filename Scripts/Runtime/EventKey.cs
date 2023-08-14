@@ -1,6 +1,6 @@
 using System;
 
-namespace MPewsey.Eventooly
+namespace MPewsey.EventTooly
 {
     /// <summary>
     /// A struct for containing an event key string and its hash code for faster lookup.

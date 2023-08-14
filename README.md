@@ -1,4 +1,4 @@
-# Eventooly
+# EventTooly
 
 A UnityEvent manager.
 
@@ -11,11 +11,11 @@ To add the package to a project, in Unity, select `Window > Package Manager`.
 Select `Add package from git URL...` and paste the following URL:
 
 ```
-https://github.com/mpewsey/Eventooly.git
+https://github.com/mpewsey/EventTooly.git
 ```
 
 RECOMMENDED: To lock into a specific version, append `#{VERSION_TAG}` to the end of the URL. For example:
 
 ```
-https://github.com/mpewsey/Eventooly.git#v1.0.0
+https://github.com/mpewsey/EventTooly.git#v1.0.0
 ```

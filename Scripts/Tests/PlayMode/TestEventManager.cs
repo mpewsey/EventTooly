@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace MPewsey.Eventooly.Tests.PlayMode
+namespace MPewsey.EventTooly.Tests.PlayMode
 {
     public class TestEventManager
     {
